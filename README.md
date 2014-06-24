@@ -2,6 +2,9 @@
 Sample extention for Photoshop.
 
 
+<img src='./img/screenshot.png' title='SampleExt' alt='SampleExt' width='376' height='348' />
+
+
 ## Quickstart
 1. Install package.
     
