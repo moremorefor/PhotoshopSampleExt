@@ -6,4 +6,4 @@
 preferences.rulerUnits = Units.PIXELS
 
 @sayHello = ->
-  alert("hello from ExtendScript")
+  alert("HelloWorld from ExtendScript!")

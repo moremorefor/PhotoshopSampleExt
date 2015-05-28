@@ -8,7 +8,7 @@ module.exports = (grunt) ->
         options:
           port: 5000
           hostname:'*'
-    
+
     watch:
       jade:
         files: "src/index.jade"
@@ -48,7 +48,7 @@ module.exports = (grunt) ->
           expand: yes
           cwd: 'lib'
           src: [ '**/*', '*.debug' ] #from
-          dest: '/Users/UserName/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext' #to
+          dest: '/Users/<user>/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext' #to
         }]
 
     jade:
@@ -154,4 +154,3 @@ module.exports = (grunt) ->
   grunt.registerTask 'default', [
     'copy:compile', 'jade', 'stylus', 'coffeelint', 'coffee', 'uglify', 'copy:deploy', 'connect', 'watch'
   ]
-        
