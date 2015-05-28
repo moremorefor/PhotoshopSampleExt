@@ -40,15 +40,15 @@ module.exports = (grunt) ->
         files:[{
           expand: yes
           cwd: 'src'
-          src: [ '**/*', '!**/*.{coffee,styl,jade}' ] #from
+          src: [ '**/*', '!**/*.{coffee,styl,jade}', '.debug' ] #from
           dest: 'lib' #to
         }]
        deploy:
         files:[{
           expand: yes
           cwd: 'lib'
-          src: [ '**/*', '*.debug' ] #from
-          dest: '/Users/<user>/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext' #to
+          src: [ '**/*', '.debug' ] #from
+          dest: '/Users/moremorefor/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext' #to
         }]
 
     jade:
