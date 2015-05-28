@@ -5,7 +5,7 @@ Sample extention for Photoshop.
 <img src='./img/screenshot.png' title='SampleExt' alt='SampleExt' width='376' height='348' />
 
 ## Setup debug environment
-1. Edit plist file:  <user>/Library/Preferences/com.adobe.CSXS.5.plist
+1. Edit plist file:  `<user>/Library/Preferences/com.adobe.CSXS.5.plist`
 
         Set string value for the key PlayerDebugMode to 1
 
@@ -27,7 +27,7 @@ Sample extention for Photoshop.
         $ grunt
 
 ## Debug
-- Open http://localhost:8088/ in browser.
+- Open [http://localhost:8088/](http://localhost:8088/) in browser.
 
 
 ## References
