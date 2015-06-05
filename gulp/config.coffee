@@ -31,7 +31,7 @@ path =
   deploy:
     src    : destDir + '/**/*'
     debug  : destDir + '/.debug'
-    dest   : '/Users/moremorefor/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext'
+    dest   : '/Users/<user>/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext'
 
 module.exports =
   path: path

@@ -18,13 +18,13 @@ Sample extention for Photoshop.
 
         $ npm install
 
-1. Edit Gruntfile.coffee and change 'user'.
+1. Edit gulp/config.coffee and change 'user'.
 
         dest: '/Users/<user>/Library/Application Support/Adobe/CEPServiceManager4/extensions/com.example.sampleext'
 
 1. Build & Run
 
-        $ grunt
+        $ gulp
 
 ## Debug
 - Open [http://localhost:8088/](http://localhost:8088/) in browser.
